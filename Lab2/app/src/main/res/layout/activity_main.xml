@@ -32,13 +32,11 @@
         android:id="@+id/a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:ems="10"
         android:inputType="text"
         android:textAlignment="textStart"
-        app:layout_constraintEnd_toStartOf="@+id/a_text"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/a_text"
         app:layout_constraintTop_toTopOf="@+id/a_text" />
 
     <TextView
@@ -48,9 +46,9 @@
         android:text="c"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/calc"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="@+id/calc"
+        app:layout_constraintEnd_toStartOf="@+id/calc"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.78" />
 
@@ -58,13 +56,11 @@
         android:id="@+id/c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/calc"
-        app:layout_constraintEnd_toStartOf="@+id/c_text"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/c_text"
         app:layout_constraintTop_toTopOf="@+id/c_text"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -96,12 +92,10 @@
         android:id="@+id/b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintEnd_toStartOf="@+id/b_text"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b_text"
         app:layout_constraintTop_toTopOf="@+id/b_text" />
 
     <TextView
